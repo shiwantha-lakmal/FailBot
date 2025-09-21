@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/gtaf_mcp.egg-info/PKG-INFO
+src/gtaf_mcp.egg-info/SOURCES.txt
+src/gtaf_mcp.egg-info/dependency_links.txt
+src/gtaf_mcp.egg-info/entry_points.txt
+src/gtaf_mcp.egg-info/requires.txt
+src/gtaf_mcp.egg-info/top_level.txt
+src/mcpserver/__init__.py
+src/mcpserver/__main__.py
+src/mcpserver/service.py
+src/mcpserver/facade/__init__.py
+src/mcpserver/facade/knowledge_db.py
+src/mcpserver/facade/result_client.py

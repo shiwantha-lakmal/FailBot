@@ -1,0 +1,27 @@
+{
+  "testCase": "Grubtech Item Availability Report - Test Suite Test - Verify Menu Items Unavailability Report Table",
+  "created": "2025-09-13T14:20:48.026771",
+  "total_failures": 1,
+  "unique_errors": 1,
+  "failure_history": [
+    {
+      "failure_id": "e90eb63bd431",
+      "timestamp": "2025-09-13T14:20:48.026727",
+      "status": "failed",
+      "filePath": "e2e/visualization/monitor/gt_modifier_availability_report.cy.ts",
+      "failedStep": ".verify_tableContainsItem(\"Berry Mocktail\", \"Menu Item\", \"Unavailable\");",
+      "first_seen": "2025-09-13T14:20:48.026775",
+      "occurrence_count": 1,
+      "recent_occurrences": [
+        {
+          "timestamp": "2025-09-13T14:20:48.026777",
+          "error": "AssertionError: \n\nTest steps were:\n\n1. Visit the base URL\n2. The username to be entereddatalakeautomation@gmail.com\n3. The password to be enteredTest@123\n4. The Method to click the login button\n\nTimed out retrying after 4000ms: expected '<td.GTTable__column.GTTable__column-type.GTTable__column--body>' to contain text 'Menu Item', but the text was 'Modifier'",
+          "stackTrace": "ter.staging.grubtech.io/__cypress/runner/cypress_runner.js:135818:8)\n    at <unknown> (https://grubcenter.staging.grubtech.io/__cypress/runner/cypress_runner.js:135899:16)\n    at __WEBPACK_DEFAULT_EXPORT__ (https://grubcenter.staging.grubtech.io/__cypress/runner/cypress_runner.js:133734:10)\n    at Context.within (https://grubcenter.staging.grubtech.io/__cypress/runner/cypress_runner.js:135885:67)\n    at wrapped (https://grubcenter.staging.grubtech.io/__cypress/runner/cypress_runner.js:141533:19)",
+          "isBug": null,
+          "tester_notes": []
+        }
+      ]
+    }
+  ],
+  "last_updated": "2025-09-13T14:20:48.026782"
+}
