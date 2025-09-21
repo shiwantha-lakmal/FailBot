@@ -59,7 +59,7 @@ Add to your MCP client configuration (e.g., `~/.cursor/mcp.json`):
   "mcpServers": {
     "failbot": {
       "command": "uvx",
-      "args": ["--from", "git+https://github.com/shiwantha-lakmal/failbot.git", "mcp-server"],
+      "args": ["--from", "git+https://github.com/shiwantha-lakmal/FailBot.git", "mcp-server"],
       "env": {
         "ORDINO_CLI_API_KEY": "<ORDINO-KEY>",
         "ORDINO_SYSTEM_API_KEY": "<ORDINO-SYSTEM-KEY>"
