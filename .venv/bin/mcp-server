@@ -1,4 +1,4 @@
-#!/Users/shiwantha.lakmal/Personal/gtaf-mcp/.venv/bin/python3
+#!/Users/shiwantha.lakmal/Personal/FailBot/.venv/bin/python3
 # -*- coding: utf-8 -*-
 import sys
 from mcpserver.__main__ import main
