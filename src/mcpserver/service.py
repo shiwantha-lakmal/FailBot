@@ -2,8 +2,8 @@ import sys
 import os
 
 # Ensure the src directory is in the Python path
-current_dir = os.path.dirname(os.path.abspath(__file__))
-src_dir = os.path.dirname(os.path.dirname(current_dir))
+current_dir = os.path.dirname(os.path.abspath(__file__))  # /path/to/FailBot/src/mcpserver
+src_dir = os.path.dirname(current_dir)  # /path/to/FailBot/src
 if src_dir not in sys.path:
     sys.path.insert(0, src_dir)
 
