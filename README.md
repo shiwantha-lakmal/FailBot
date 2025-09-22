@@ -31,8 +31,13 @@
 
 ### Generate Project and Keys
 
-- Follow the steps build-project [https://ordino-ai.gitbook.io/ordino-ai/getting-started/installation/portal-setup]
-- Generate keys from portal or refer local prpject .env file
+➡️ [Build Project Guide](https://ordino-ai.gitbook.io/ordino-ai/getting-started/installation/portal-setup)
+
+Step 2: Generate Keys  
+Once the project is created, generate the required API keys from the portal.  
+- Navigate to **Organization Settings**.  
+- Select **API Keys**.  
+- Click **Generate New Key** and copy it securely.  
 
 ### Install UV (Package Manager)
 
