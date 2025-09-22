@@ -29,6 +29,11 @@
 - Access to testing platform API endpoints
 - Valid API keys for Ordino services
 
+### Generate Project and Connect with Ordino
+
+- Follow the steps build-project [https://ordino-ai.gitbook.io/ordino-ai/getting-started/installation/portal-setup]
+- Generate keys from portal or refer local prpject .env file
+
 ### Install UV (Package Manager)
 
 UV is required to install and run this MCP server:
