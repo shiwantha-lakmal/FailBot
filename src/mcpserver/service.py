@@ -251,7 +251,3 @@ def cleanup_knowledge_database() -> str:
         optimized_result["error_count"] = len(cleanup_results["errors"])
     
     return json.dumps(optimized_result, indent=2)
-
-# Make sure the mcp server is available when this module is run directly
-if __name__ == "__main__":
-    mcp.run(transport="stdio")
